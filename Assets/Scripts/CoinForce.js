@@ -62,7 +62,7 @@ function Update () {
 			coinIsReady = true;				
 		}
 		
-		#if !UNITY_IPHONE
+		#if !UNITY_ANDROID
 		if (Input.GetMouseButtonDown(0))
 		{
 			forcex = mousepowerx * Input.GetAxis("Mouse X")/Time.deltaTime;
